@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 $controller_path = 'App\Http\Controllers';
 
+
+
 // Main Page Route
 Route::get('/', $controller_path . '\dashboard\Analytics@index')->name('dashboard-analytics');
 
@@ -76,6 +78,7 @@ Route::get('/forms/input-groups', $controller_path . '\form_elements\InputGroups
 Route::get('/form/layouts-vertical', $controller_path . '\form_layouts\VerticalForm@index')->name('form-layouts-vertical');
 Route::get('/form/layouts-horizontal', $controller_path . '\form_layouts\HorizontalForm@index')->name('form-layouts-horizontal');
 
+
 //artifacts
 Route::get('/form/artifacts',$controller_path . '\form_layouts\ArtifactsController@create')->name('artifacts');
 Route::get('/form/artifacts/index',$controller_path . '\form_layouts\ArtifactsController@index')->name('artifacts.index');
@@ -84,6 +87,8 @@ Route::get('/form/artifacts/show/{id}',$controller_path . '\form_layouts\Artifac
 Route::get('/form/artifacts/edit/{id}',$controller_path . '\form_layouts\ArtifactsController@edit')->name('artifacts.edit');
 Route::put('/form/artifacts/update/{id}',$controller_path . '\form_layouts\ArtifactsController@update')->name('artifacts.update');
 Route::get('/selectlanguage',$controller_path . '\form_layouts\ArtifactsController@selectlanguage')->name('selectlanguage');
+
+Route::get('/select',$controller_path . '\form_layouts\ArtifactsController@select')->name('select');
 
 
 

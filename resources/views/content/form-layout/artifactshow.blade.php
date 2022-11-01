@@ -110,7 +110,7 @@
              {{-- <span id="desc">Description<?php echo $artifacts->description ?></span><br /> --}}
              {{-- <span id="desc">Description<?php echo $artifacts->description ?></span> --}}
              <span id="desc"></span>
-           
+                       
         </div>
       </div>
     </div>

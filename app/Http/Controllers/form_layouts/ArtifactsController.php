@@ -89,4 +89,9 @@ class ArtifactsController extends Controller
     }
     
 
+    public function select()
+    {
+        return view('ccavenue');
+    }
+
 }

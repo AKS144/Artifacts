@@ -7,9 +7,21 @@
   <span class="text-muted fw-light">Tables /</span> Basic Tables
 </h4>
 
+
 <!-- Basic Bootstrap Table -->
 <div class="card">
   <h5 class="card-header">Table Basic</h5>
+
+  {{-- <div class="row">
+    <div class="card-header col">
+      <h3 class="one">Text</h3>
+    </div>
+    <div class="col-auto">
+      <button class="btn btn-secondary pull-right">Button</button>
+    </div>
+  </div> --}}
+  
+   
   <div class="table-responsive text-nowrap">
     <table class="table">
       <thead>

@@ -278,7 +278,7 @@
           "slug": "form-layouts-horizontal"
         },
         {
-          "url": "/form/artifacts",
+          "url": "/form/artifacts/index",
           "name": "Artifacts Form",
           "slug": "artifacts"
         }
