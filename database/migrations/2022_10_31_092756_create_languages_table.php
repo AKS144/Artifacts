@@ -17,9 +17,9 @@ return new class extends Migration
             $table->id();
             $table->string('language');
             $table->longText('description');
-            $table->string('artifact_id');
-            //$table->unsignedBigInteger('artifact_id');
-            //$table->foreign('artifact_id')->references('id')->on('artifacts')->onDelete('cascade');
+            //$table->string('artifact_id');
+            $table->unsignedBigInteger('artifacts_id');
+            $table->foreign('artifact_id')->references('id')->on('artifacts')->onDelete('cascade');
             $table->timestamps();
         });
     }
